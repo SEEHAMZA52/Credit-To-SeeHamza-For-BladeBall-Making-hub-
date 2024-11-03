@@ -1,0 +1,6 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("HAMZA HUB BLADE BALL", "Default")
+local tab = DrRayLibrary.newTab("CreditToSeeHamza", "ImageIdHere")
+tab.newButton("AUTO PARRY", "Credit To SeeHamza!", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MrDemonSkrtSkrt/Blade-Ball-/main/Auto%20parry'))()
+end)
